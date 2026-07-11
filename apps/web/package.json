@@ -1,0 +1,15 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo \"No web linter configured yet\""
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

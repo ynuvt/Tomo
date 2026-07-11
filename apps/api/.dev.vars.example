@@ -1,0 +1,15 @@
+# Copy this file to .dev.vars when running wrangler locally.
+# Fill the placeholders before using them.
+
+PUBLIC_APP_NAME=Tomo
+CORS_ORIGIN=http://127.0.0.1:5173
+JWT_COOKIE_NAME=tomo_auth
+OTP_TTL_MINUTES=15
+DEBUG_RETURN_OTP=1
+JWT_SECRET=YOUR_JWT_SECRET
+EMAIL_PROVIDER=resend
+EMAIL_PROVIDER_API_KEY=YOUR_EMAIL_PROVIDER_API_KEY
+EMAIL_FROM=Tomo <no-reply@yourdomain.com>
+CF_ACCOUNT_ID=YOUR_CLOUDFLARE_ACCOUNT_ID
+DB_DATABASE_ID=YOUR_D1_DATABASE_ID
+R2_BUCKET_NAME=tomo-assets

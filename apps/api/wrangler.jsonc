@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tomo-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-08",
+  "vars": {
+    "PUBLIC_APP_NAME": "Tomo",
+    "CORS_ORIGIN": "http://127.0.0.1:5173",
+    "JWT_COOKIE_NAME": "tomo_auth",
+    "OTP_TTL_MINUTES": "15",
+    "DEBUG_RETURN_OTP": "0"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tomo-db",
+      "database_id": "YOUR_D1_DATABASE_ID"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "ASSETS",
+      "bucket_name": "tomo-assets"
+    }
+  ]
+}
